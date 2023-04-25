@@ -8,7 +8,7 @@ RSpec.describe Biker do
     @biker2 = Biker.new("Athena", 15)
     @ride1 = Ride.new({name: "Walnut Creek Trail", distance: 10.7, loop: false, terrain: :hills})
     @ride2 = Ride.new({name: "Town Lake", distance: 14.9, loop: true, terrain: :gravel})
-
+    
   end
 
   describe 'attributes' do
@@ -54,5 +54,5 @@ RSpec.describe Biker do
       expect(@biker2.personal_record(@ride1)).to eq(false)
     end
   end
-  
+
 end
