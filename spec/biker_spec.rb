@@ -54,4 +54,5 @@ RSpec.describe Biker do
       expect(@biker2.personal_record(@ride1)).to eq(false)
     end
   end
+  
 end
