@@ -30,7 +30,6 @@ attr_accessor
       #this returns the Biker object as key and the total number of rides as value
   end
 
-
   ### This is same as above bit returns string of rider name as key and total rides as value
   # def most_rides
   #   rides = {}
@@ -67,8 +66,6 @@ attr_accessor
   #   end
   #   best_overall.sort_by { |key, value| value }.first
   # end
-
-
 
   def bikers_eligible(ride)
     eligible = []
